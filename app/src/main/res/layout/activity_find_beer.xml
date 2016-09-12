@@ -35,4 +35,37 @@
         android:layout_marginTop="60dp"
         android:text=""
         android:id="@+id/brands" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/send"
+        android:id="@+id/send"
+        android:layout_marginTop="61dp"
+        android:onClick="onSendMessage"
+        android:layout_below="@+id/brands"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/message"
+        android:layout_below="@+id/send"
+        android:layout_alignLeft="@+id/send"
+        android:layout_alignStart="@+id/send"
+        android:layout_alignRight="@+id/send"
+        android:layout_alignEnd="@+id/send"
+        android:ems="10" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/message2"
+        android:text=""
+        android:ems="10"
+        android:layout_below="@+id/message"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="57dp" />
 </RelativeLayout>
